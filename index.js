@@ -20,37 +20,36 @@ client.on("message", async message => {
   let cmd = messageArray[0];
   let args = messageArray.slice(1);
 
-  if (cmd === `${prefix}testas`){
+  if (cmd === `${prefix}naujiena`){
 	  
 	const args = message.content.split(' ');
-	const antras = args.slice(1).join(' ');
+	const spalva = args.slice(1).join(' ');
+	const spalva = args.slice(1).join(' ');
 	const url = args[1] ? args[1].replace(/<(.+)>/g, '$1') : '';
 	  
+	const laikas = new Date();
 	  
 
 message.channel.send({embed: {
-    color: 3447003,
+    color: spalva,
     author: {
-      name: client.user.username,
-      icon_url: client.user.avatarURL
+      name: "Atnaujinimas "+laikas+"",
+      icon_url: "http://enoxas.lt/discord/naujienos.png"
     },
     title: antras,
-    url: "http://mcstory.lt",
-    description: "Testuojama sistema.",
+///    url: "http://mcstory.lt",
+    description: "Atnaujinimai vyksta.",
     fields: [
       {
         name: "xzczxc",
-        value: "zxczxc [zzzzzz](http://google.com) xzczxczc"
-      },
-      {
-        name: "Testas",
-        value: "sdfsdf *sdfsdf* **__sdfsdfsd__** sdfdsfsdf"
+        value: "zxczxc [zzzzzz](http://google.com) xzczxczc" +
+	      "sdfsdf *sdfsdf* **__sdfsdfsd__** sdfdsfsdf"
       }
     ],
     timestamp: new Date(),
     footer: {
-      icon_url: "http://enoxas.lt/failai/youtube.png",
-      text: "© MCSTORY 2020"
+      icon_url: "http://enoxas.lt/discord/laikrodis.png",
+      text: "MCSTORY.LT   "
     }
   }
 });
