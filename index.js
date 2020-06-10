@@ -6,7 +6,17 @@ const client = new Client({ disableEveryone: true });
 
 client.on("ready", async () => {
   console.log(`${client.user.username} prisijungė!`);
-  client.user.setActivity(`Labas! Įrašyk -komandos`);
+  ///client.user.setActivity(`Labas! Įrašyk -komandos`);
+	
+	    client.user.setPresence({
+        status: "online",
+        game: {
+            name: "Testuoju",
+            type: "STREAMING" //PLAYING: WATCHING: LISTENING: STREAMING:
+        }
+    });
+	
+	
 });
 
 client.on("message", async message => {
