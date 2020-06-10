@@ -21,6 +21,12 @@ client.on("message", async message => {
   let args = messageArray.slice(1);
 
   if (cmd === `${prefix}testas`){
+	  
+	const args = message.content.split(' ');
+	const antras = args.slice(1).join(' ');
+	const url = args[1] ? args[1].replace(/<(.+)>/g, '$1') : '';
+	  
+	  
 
 message.channel.send({embed: {
     color: 3447003,
@@ -28,8 +34,8 @@ message.channel.send({embed: {
       name: client.user.username,
       icon_url: client.user.avatarURL
     },
-    title: "This is an embed",
-    url: "http://google.com",
+    title: "${antras}",
+    url: "http://mcstory.lt",
     description: "This is a test embed to showcase what they look like and what they can do.",
     fields: [{
         name: "Fields",
@@ -46,8 +52,8 @@ message.channel.send({embed: {
     ],
     timestamp: new Date(),
     footer: {
-      icon_url: client.user.avatarURL,
-      text: "© Example"
+      icon_url: "http://enoxas.lt/failai/youtube.png",
+      text: "© MCSTORY 2020"
     }
   }
 });
