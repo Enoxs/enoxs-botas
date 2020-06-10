@@ -41,21 +41,24 @@ client.on("message", async message => {
   if (cmd === `${prefix}naujiena`){
 	  
 	const args = message.content.split(' ');
-	const spalva2 = args.slice(1).join(' ');
-	const antras = args.slice(2).join(' ');
+	//const spalva2 = args.slice(1).join(' ');
+	const antras = args.slice(1).join(' ');
+	const trecias = args.slice(2).join(' ');
+
+	//var visokiekis = trecias.split(";");
 	  
-	var spalva = parseInt(spalva2);
+	//var spalva = parseInt(spalva2);
 	  
 
 message.channel.send({embed: {
-    color: spalva,
+    color: 114568,
 //    author: {
 //      name: "**__Atnaujinimas__** ",
 //      icon_url: "http://enoxas.lt/discord/naujienos.png"
 //    },
-    title: ":spurga: **__Atnaujinimas__**",
+    title: antras+" **__Atnaujinimas | Atidarymas__**",
 ///    url: "http://mcstory.lt",
-    description: ":ledai: Atnaujinimai vyksta.\n:ledai: Dar vienas.",
+    description: trecias+" Atnaujinimai vyksta.\n"+trecias+" Dar vienas.",
 ////    fields: [
 //      {
 //        name: "**AAA**",
