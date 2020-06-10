@@ -2,13 +2,20 @@ const { Client, Util } = require('discord.js');
 const client = new Client({ disableEveryone: true });
 
 
-
-
 client.on("ready", async () => {
   console.log(`${client.user.username} prisijungė!`);
   client.user.setActivity(`➔ MCSTORY.LT`);
 	
 });
+
+
+
+
+
+
+
+
+
 
 client.on("message", async message => {
 
@@ -20,6 +27,17 @@ client.on("message", async message => {
   let cmd = messageArray[0];
   let args = messageArray.slice(1);
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
   if (cmd === `${prefix}naujiena`){
 	  
 	const args = message.content.split(' ');
@@ -39,7 +57,7 @@ message.channel.send({embed: {
     },
     title: "**__Atnaujinimas__**",
 ///    url: "http://mcstory.lt",
-    description: "Atnaujinimai vyksta.",
+    description: "Atnaujinimai vyksta."
     fields: [
       {
         name: "",
@@ -58,6 +76,15 @@ message.channel.send({embed: {
 	  
 	  
   }
+	
+	
+	
+	
+	
+	
+	
+	
+	
   if (cmd === `${prefix}komandos` || cmd === `${prefix}help`){
     message.channel.send(`
 **Komandos:**
