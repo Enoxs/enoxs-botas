@@ -55,12 +55,11 @@ message.channel.send({embed: {
     },
     title: "**__Atnaujinimas__**",
 ///    url: "http://mcstory.lt",
-    description: "Atnaujinimai vyksta."
+    description: "Atnaujinimai vyksta.",
     fields: [
       {
         name: "",
-        value: "zxczxc [zzzzzz](http://google.com) xzczxczc" +
-	      "sdfsdf *sdfsdf* **__sdfsdfsd__** sdfdsfsdf"
+        value: "zxczxc [zzzzzz](http://google.com) xzczxczc sdfsdf *sdfsdf* **__sdfsdfsd__** sdfdsfsdf"
       }
     ],
     timestamp: new Date(),
