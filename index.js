@@ -21,16 +21,17 @@ client.on("message", async message => {
   let args = messageArray.slice(1);
 
   if (cmd === `${prefix}testas`){
-    message.channel.send("Dirbu dirbu!
-			 
-			 |Trial|Result|
-|------:|-----------:|
-|1|Fail|
-|2|Fail|
-|3|Success|
-			 
-			 
-			 ");
+      message.channel.send(`
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+		`);
+
+	  
+	  
   }
   if (cmd === `${prefix}komandos` || cmd === `${prefix}help`){
     message.channel.send(`
