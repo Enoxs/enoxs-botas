@@ -24,8 +24,7 @@ client.on("message", async message => {
 	  
 	const args = message.content.split(' ');
 	const spalva = args.slice(1).join(' ');
-	const spalva = args.slice(1).join(' ');
-	const url = args[1] ? args[1].replace(/<(.+)>/g, '$1') : '';
+	const antras = args.slice(2).join(' ');
 	  
 	const laikas = new Date();
 	  
