@@ -49,19 +49,19 @@ client.on("message", async message => {
 
 message.channel.send({embed: {
     color: spalva,
-    author: {
-      name: "**__Atnaujinimas__** ",
-      icon_url: "http://enoxas.lt/discord/naujienos.png"
-    },
-    title: "**__Atnaujinimas__**",
+//    author: {
+//      name: "**__Atnaujinimas__** ",
+//      icon_url: "http://enoxas.lt/discord/naujienos.png"
+//    },
+    title: ":spurga: **__Atnaujinimas__**",
 ///    url: "http://mcstory.lt",
-    description: "Atnaujinimai vyksta.",
-    fields: [
-      {
-        name: "**AAA**",
-        value: "zxczxc [zzzzzz](http://google.com) xzczxczc sdfsdf *sdfsdf* **__sdfsdfsd__** sdfdsfsdf"
-      }
-    ],
+    description: ":ledai: Atnaujinimai vyksta.\n:ledai: Dar vienas.",
+////    fields: [
+//      {
+//        name: "**AAA**",
+//        value: "zxczxc [zzzzzz](http://google.com) xzczxczc sdfsdf *sdfsdf* **__sdfsdfsd__** sdfdsfsdf"
+// ///     }
+ /// //  ],
     timestamp: new Date(),
     footer: {
       icon_url: "http://enoxas.lt/discord/laikrodis.png",
