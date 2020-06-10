@@ -79,6 +79,25 @@ message.channel.send({embed: {
 	
 	
 	
+
+	
+  if (cmd === `${prefix}kita`){
+	  
+	const args = message.content.split(' ');
+	const antras = args.slice(1).join(' ');
+	const trecias = args.slice(2).join(' ');
+
+message.channel.send({embed: {
+    color: 114568,
+    title: "<a:laimingas:720259065263030373> **__Taisyklės__**",
+    description: " Perskaitykite ir sutikite su taisyklėmis :protingas:
+ＴＡＩＳＹＫＬＥＳ:\n"+trecias+" Dar vienas."
+  }
+});
+
+	  
+	  
+  }
 	
 	
 	
@@ -104,7 +123,7 @@ message.channel.send({embed: {
 
 
 
-
+/*
 const { TOKEN, PREFIX, GOOGLE_API_KEY } = require('./config');
 const YouTube = require('simple-youtube-api');
 const ytdl = require('ytdl-core');
@@ -310,6 +329,6 @@ function play(guild, song) {
 	serverQueue.textChannel.send(`🎶 Groja: **${song.title}**`);
 }
 
-
+*/
 
 client.login(process.env.token);
