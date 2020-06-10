@@ -58,7 +58,7 @@ message.channel.send({embed: {
     description: "Atnaujinimai vyksta.",
     fields: [
       {
-        name: "",
+        name: " ",
         value: "zxczxc [zzzzzz](http://google.com) xzczxczc sdfsdf *sdfsdf* **__sdfsdfsd__** sdfdsfsdf"
       }
     ],
