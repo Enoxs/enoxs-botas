@@ -46,8 +46,6 @@ client.on("message", async message => {
 	  
 	var spalva = parseInt(spalva2);
 	  
-	const laikas = new Date();
-	  
 
 message.channel.send({embed: {
     color: spalva,
