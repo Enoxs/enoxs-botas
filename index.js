@@ -6,16 +6,7 @@ const client = new Client({ disableEveryone: true });
 
 client.on("ready", async () => {
   console.log(`${client.user.username} prisijungė!`);
-  ///client.user.setActivity(`Labas! Įrašyk -komandos`);
-	
-	    client.user.setPresence({
-        status: "online",
-        game: {
-            name: "Testuoju",
-            type: "STREAMING" //PLAYING: WATCHING: LISTENING: STREAMING:
-        }
-    });
-	
+  client.user.setActivity(`➔ MCSTORY.LT`);
 	
 });
 
@@ -30,7 +21,16 @@ client.on("message", async message => {
   let args = messageArray.slice(1);
 
   if (cmd === `${prefix}testas`){
-    message.channel.send("Veikia!");
+    message.channel.send("Dirbu dirbu!
+			 
+			 |Trial|Result|
+|------:|-----------:|
+|1|Fail|
+|2|Fail|
+|3|Success|
+			 
+			 
+			 ");
   }
   if (cmd === `${prefix}komandos` || cmd === `${prefix}help`){
     message.channel.send(`
