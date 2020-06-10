@@ -81,11 +81,7 @@ message.channel.send({embed: {
 	
 
 	
-  if (cmd === `${prefix}kita`){
-	  
-	const args = message.content.split(' ');
-	const antras = args.slice(1).join(' ');
-	const trecias = args.slice(2).join(' ');
+  if (cmd === `${prefix}taisykles`){
 
 message.channel.send({embed: {
     color: 114568,
@@ -102,8 +98,6 @@ message.channel.send({embed: {
 "<:ateivis:720293974719332402> Paspausk ant <:taip:720291007878660098> emocijos jog sutikti su taisyklėmis! <:labas:501712009268822016>\n"
   }
 });
-
-	  
 	  
   }
 	
