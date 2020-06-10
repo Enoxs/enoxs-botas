@@ -89,17 +89,17 @@ message.channel.send({embed: {
 
 message.channel.send({embed: {
     color: 114568,
-    title: "<a:laimingas:720259065263030373> **__Taisyklės__**",
-    description: " Perskaitykite ir sutikite su taisyklėmis\nＴＡＩＳＹＫＬＥＳ:\n\n"+
+    title: "<a:laimingas:720259065263030373> **__Perskaitykite ir sutikite su taisyklėmis__**",
+    description: "\nＴＡＩＳＹＫＬＥＳ:\n\n"+
 "<:zole:720289285542248469> 1. Nesikeikti ir neįžeidinėti kitų narių.\n"+
-"<:zole:720289285542248469> 2. Neapsimetinėkite kitais žmonėmis."+
-"<:zole:720289285542248469> 3. Slapyvardžiai kaip ir avatarai turi atitikti 'family friendly' normas."+
-"<:zole:720289285542248469> 4. Custom statuse neturi būti reklamos ir privalo atitikti etikos normas."+
-"<:zole:720289285542248469> 5. Nesireklamuoti ir nereklamuoti turinio kuris susijęs su kažkokia tai prekyba, komercija ir t.t."+
-"<:zole:720289285542248469> 6. Netrukdyti kitiems. Nerašyti bereikalingo teksto į pokalbių skiltis."+
-"<:zole:720289285542248469> 7. Neprašyti rolių, paslaugų."+
+"<:zole:720289285542248469> 2. Neapsimetinėkite kitais žmonėmis.\n"+
+"<:zole:720289285542248469> 3. Slapyvardžiai kaip ir avatarai turi atitikti 'family friendly' normas.\n"+
+"<:zole:720289285542248469> 4. Custom statuse neturi būti reklamos ir privalo būti etiški.\n"+
+"<:zole:720289285542248469> 5. Nesireklamuoti ir nereklamuoti turinio kuris susijęs su kažkokia tai prekyba, komercija ir t.t.\n"+
+"<:zole:720289285542248469> 6. Netrukdyti kitiems. Netaginti žmonių be rimtos priežasties.\n"+
+"<:zole:720289285542248469> 7. Neprašyti rolių, paslaugų.\n"+
 "<:zole:720289285542248469> 8. Reakcijų naudojimas nėra skirtas išreikšti vulgariems žodžiams ar kitaip įžeisti žmones.\n\n"+
-"<:ateivis:720293974719332402> Paspausk ant <:taip:720291007878660098> emocijos jog sutikti su taisyklėmis!"
+"<:ateivis:720293974719332402> Paspausk ant <:taip:720291007878660098> emocijos jog sutikti su taisyklėmis! <:labas:501712009268822016>\n"
   }
 });
 
