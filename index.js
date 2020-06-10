@@ -34,15 +34,15 @@ client.on("message", async message => {
 message.channel.send({embed: {
     color: spalva,
     author: {
-      name: "Atnaujinimas "+laikas+"",
+      name: "**__Atnaujinimas__** ",
       icon_url: "http://enoxas.lt/discord/naujienos.png"
     },
-    title: antras,
+    title: "**__Atnaujinimas__**",
 ///    url: "http://mcstory.lt",
     description: "Atnaujinimai vyksta.",
     fields: [
       {
-        name: "xzczxc",
+        name: "",
         value: "zxczxc [zzzzzz](http://google.com) xzczxczc" +
 	      "sdfsdf *sdfsdf* **__sdfsdfsd__** sdfdsfsdf"
       }
