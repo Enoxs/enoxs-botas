@@ -23,8 +23,10 @@ client.on("message", async message => {
   if (cmd === `${prefix}naujiena`){
 	  
 	const args = message.content.split(' ');
-	const spalva = args.slice(1).join(' ');
+	const spalva2 = args.slice(1).join(' ');
 	const antras = args.slice(2).join(' ');
+	  
+	var spalva = parseInt(spalva2);
 	  
 	const laikas = new Date();
 	  
