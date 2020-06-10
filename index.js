@@ -90,8 +90,7 @@ message.channel.send({embed: {
 message.channel.send({embed: {
     color: 114568,
     title: "<a:laimingas:720259065263030373> **__Taisyklės__**",
-    description: " Perskaitykite ir sutikite su taisyklėmis :protingas:
-ＴＡＩＳＹＫＬＥＳ:\n"+trecias+" Dar vienas."
+    description: " Perskaitykite ir sutikite su taisyklėmis :protingas:ＴＡＩＳＹＫＬＥＳ:\n"+trecias+" Dar vienas."
   }
 });
 
