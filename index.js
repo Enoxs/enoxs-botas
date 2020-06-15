@@ -88,14 +88,17 @@ message.channel.send({embed: {
     title: "<a:laimingas:720259065263030373> **__Perskaitykite ir sutikite su taisyklėmis__**",
     description: "\nＴＡＩＳＹＫＬＥＳ:\n\n"+
 "<:zole:720289285542248469> 1. Nesikeikti ir neįžeidinėti kitų narių.\n"+
-"<:zole:720289285542248469> 2. Neapsimetinėkite kitais žmonėmis.\n"+
-"<:zole:720289285542248469> 3. Slapyvardžiai kaip ir avatarai turi atitikti 'family friendly' normas.\n"+
-"<:zole:720289285542248469> 4. Custom statuse neturi būti reklamos ir privalo būti etiški.\n"+
+"<:zole:720289285542248469> 2. Draudžiama apsimesti kitais žmonėmis, jūs esate jūs, o ne kažkas kitas.\n"+
+"<:zole:720289285542248469> 3. Slapyvardžiai, avatarai ir custom statusai turi atitikti etikos ir N-7 taisykles.\n"+
 "<:zole:720289285542248469> 5. Nesireklamuoti ir nereklamuoti turinio kuris susijęs su kažkokia tai prekyba, komercija ir t.t.\n"+
 "<:zole:720289285542248469> 6. Netrukdyti kitiems. Netaginti žmonių be rimtos priežasties.\n"+
-"<:zole:720289285542248469> 7. Neprašyti rolių, paslaugų.\n"+
+"<:zole:720289285542248469> 7. Neprašyti rolių, paslaugų ir kitų dalykų kurie jums nepriklauso.\n"+
 "<:zole:720289285542248469> 8. Reakcijų naudojimas nėra skirtas išreikšti vulgariems žodžiams ar kitaip įžeisti žmones.\n\n"+
-"<:ateivis:720293974719332402> Paspausk ant <:taip:720291007878660098> emocijos jog sutikti su taisyklėmis! <:labas:501712009268822016>\n"
+"<:zole:720289285542248469> 9. Nespaminti ar nefloodinti pokalbių, elgtis tvarkingai.\n\n"+
+"\n\n"+
+" <:failas:722232975118565387> *Trumpai tariant elkitės tvarkingai ir atsakingai!* <:failas:722232975118565387> \n\n"+
+"\n\n"+
+"<:ateivis:720293974719332402> **Paspausk ant <:taip:720291007878660098> emocijos jog sutikti su taisyklėmis!** <:labas:501712009268822016>\n"
   }
 });
 	  
