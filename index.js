@@ -93,12 +93,12 @@ message.channel.send({embed: {
 "<:zole:720289285542248469> 5. Nesireklamuoti ir nereklamuoti įvairaus pobūdžio turinio.\n"+
 "<:zole:720289285542248469> 6. Netrukdyti kitiems. Netaginti žmonių be rimtos priežasties.\n"+
 "<:zole:720289285542248469> 7. Neprašyti rolių, paslaugų ir kitų dalykų kurie jums nepriklauso.\n"+
-"<:zole:720289285542248469> 8. Reakcijų naudojimas nėra skirtas išreikšti vulgariems žodžiams ar kitaip įžeisti žmones.\n"+
+"<:zole:720289285542248469> 8. Reakcijų naudojimas nėra skirtas naudoti vulgariems žodžiams ar įžeisti žmones.\n"+
 "<:zole:720289285542248469> 9. Nespaminti ir nefloodinti pokalbių, elgtis tvarkingai.\n"+
-"<:zole:720289285542248469> 10. Pokalbiuose naudoti tvarkingą mikrofoną.\n\n"+
+"<:zole:720289285542248469> 10. Pokalbiuose neskleisti pašalinių garsų.\n\n"+
 " <:failas:722232975118565387> *Trumpai tariant elkitės tvarkingai ir atsakingai!* <:failas:722232975118565387> \n\n"+
 "\n"+
-"<:ateivis:720293974719332402> **Paspausk ant <:taip:720291007878660098> emocijos jog sutikti su taisyklėmis!** <:labas:501712009268822016>\n"
+"<:ateivis:720293974719332402> **Paspauskite ant <:taip:720291007878660098> emocijos jog sutikti su taisyklėmis!** <:labas:501712009268822016>\n"
   }
 });
 	  
