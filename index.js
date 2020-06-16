@@ -89,7 +89,7 @@ message.channel.send({embed: {
     description: "\nＴＡＩＳＹＫＬＥＳ:\n\n"+
 "<:zole:720289285542248469> 1. Nesikeikti ir neįžeidinėti kitų narių.\n"+
 "<:zole:720289285542248469> 2. Draudžiama apsimesti kitais žmonėmis, jūs esate jūs, o ne kažkas kitas.\n"+
-"<:zole:720289285542248469> 3. Slapyvardžiai, avatarai ir custom statusai turi atitikti etikos ir N-7 taisykles.\n"+
+"<:zole:720289285542248469> 3. Slapyvardžiai, avatarai ir custom statusai turi atitikti etikos taisykles.\n"+
 "<:zole:720289285542248469> 5. Nesireklamuoti ir nereklamuoti įvairaus pobūdžio turinio.\n"+
 "<:zole:720289285542248469> 6. Netrukdyti kitiems. Netaginti žmonių be rimtos priežasties.\n"+
 "<:zole:720289285542248469> 7. Neprašyti rolių, paslaugų ir kitų dalykų kurie jums nepriklauso.\n"+
