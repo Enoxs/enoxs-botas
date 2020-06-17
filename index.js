@@ -38,33 +38,20 @@ client.on("message", async message => {
 	
 	
 	
-  if (cmd === `${prefix}naujiena`){
-	  
-	const args = message.content.split(' ');
-	//const spalva2 = args.slice(1).join(' ');
-	const antras = args.slice(1).join(' ');
-	const trecias = args.slice(2).join(' ');
-
-	//var visokiekis = trecias.split(";");
-	  
-	//var spalva = parseInt(spalva2);
-	  
-
+  if (cmd === `${prefix}naujiena9`){
 message.channel.send({embed: {
-    color: 114568,
-    author: {
-      name: "**__Atnaujinimas__** ",
-      icon_url: "http://MCSTORY.lt/failai/logo.png"
+    color: 85841,
+    title: "<a:laimingas:720259065263030373> **__Perskaitykite ir sutikite su taisyklėmis__**",
+    description: "\nＮＡＵＪＩＥＮＡ:\n\n"+
+"<:sarasas:722738107648049206> Nesikeikti ir neįžeidinėti kitų narių.\n"+
+"<:rasiklis:722738124987433043> Draudžiama apsimesti kitais žmonėmis, jūs esate jūs, o ne kažkas kitas.\n"+
+"\n"+
+" <:failas:722232975118565387> *Trumpai tariant elkitės tvarkingai ir atsakingai!* <:failas:722232975118565387> \n\n"+
+"\n"+
+},
+    "image": {
+      "url": "http://mcstory.lt/failai/logodc.png"
     },
-    title: antras+" **__Atnaujinimas | Atidarymas__**",
-///    url: "http://mcstory.lt",
-    description: trecias+" Atnaujinimai vyksta.\n"+trecias+" Dar vienas.",
-////    fields: [
-//      {
-//        name: "**AAA**",
-//        value: "zxczxc [zzzzzz](http://google.com) xzczxczc sdfsdf *sdfsdf* **__sdfsdfsd__** sdfdsfsdf"
-// ///     }
- /// //  ],
     timestamp: new Date(),
     footer: {
       icon_url: "http://enoxas.lt/discord/laikrodis.png",
