@@ -77,7 +77,7 @@ var instance = new Bot();
 ///////////////////
 
 
-
+//
    function addRainbowRole(guild, role) {
         if(this.servers[guild] == undefined) {
             this.servers[guild] = [];
