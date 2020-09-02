@@ -24,7 +24,7 @@ client.guilds.forEach(server => {
     }
 
     
-    function randomizeRoleColors() {
+   /* function randomizeRoleColors() {
             var liveGuild = this.discordClient.guilds.get(server);
                 var liveRole = liveGuild.roles.get(714106630412959744);
                 liveRole.setColor(randomColour(), "Spalva pakeista.");
@@ -47,7 +47,7 @@ client.guilds.forEach(server => {
         this.servers[guild].push(role);
         this.saveServers();
     }
-
+*/
 //////////////////////////////////////////////////////////////////////////////
 client.on("message", async message => {
 
@@ -65,7 +65,7 @@ client.on("message", async message => {
 	            for(var role of message.mentions.roles.array()) {
                 message.reply("Pridėta " + role + " rolė prie vaivorykštės.");
                 
-               addRainbowRole(message.guild.id, role.id);
+        //       addRainbowRole(message.guild.id, role.id);
             }
 	
 	
