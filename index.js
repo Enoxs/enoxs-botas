@@ -1,6 +1,7 @@
 const { Client, Util } = require('discord.js');
 const client = new Client({ disableEveryone: true });
 const randomColour = require('randomcolor'); // yes, the creator of this package does not speak the real english
+const serveriai = require('./serveriai.json');
 
 client.on("ready", async () => {
   console.log(`${client.user.username} prisijungė!`);
@@ -25,16 +26,7 @@ class Bot {
             this.randomizeRoleColors();
         }, 3*1000);
     }
-    
-    processMessage(msg) {
-        if(msg.content.startsWith(">addrole")) {
-            for(var role of msg.mentions.roles.array()) {
-                msg.reply("Added " + role + " to list of rainbow roles.");
-                
-                this.addRainbowRole(msg.guild.id, role.id);
-            }
-        }
-    }
+
     
     randomizeRoleColors() {
         for(var server in this.servers) {
@@ -52,8 +44,17 @@ class Bot {
             }
         }
     }
-    
-    addRainbowRole(guild, role) {
+    saveServers() {
+        fs.writeFileSync("./serveriai.json", JSON.stringify(this.servers), "utf8");
+    }
+}
+
+var instance = new Bot();
+///////////////////
+
+
+//
+    function addRainbowRole(guild, role) {
         if(this.servers[guild] == undefined) {
             this.servers[guild] = [];
         }
@@ -66,23 +67,7 @@ class Bot {
         
         this.servers[guild].push(role);
         this.saveServers();
-    } 
-    
-    saveServers() {
-        fs.writeFileSync("./serveriai.json", JSON.stringify(this.servers), "utf8");
     }
-}
-
-var instance = new Bot();
-///////////////////
-
-
-//
-   function addRainbowRole(guild, role) {
-        if(this.servers[guild] == undefined) {
-            this.servers[guild] = [];
-        }
-   }
 
 //////////////////////////////////////////////////////////////////////////////
 client.on("message", async message => {
@@ -99,7 +84,7 @@ client.on("message", async message => {
 	
 	  
 	            for(var role of message.mentions.roles.array()) {
-                message.reply("Added " + role + " to list of rainbow roles.");
+                message.reply("Pridėta " + role + " rolė prie vaivorykštės.");
                 
                addRainbowRole(message.guild.id, role.id);
             }
