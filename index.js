@@ -19,7 +19,7 @@ client.guilds.forEach(server => {
         console.log("Prisijungta prie sistemos.");
         
         setInterval(() => {
-           randomizeRoleColors();
+     //      randomizeRoleColors();
         }, 3*1000);
     }
 
