@@ -8,7 +8,7 @@ client.on("ready", async () => {
 	initialize();
 	
 client.guilds.forEach(server => {
-    console.log(guild.name+" IDAS: "+guild.id);
+    console.log(guilds.name+" IDAS: "+guilds.id);
 });
 	
 
