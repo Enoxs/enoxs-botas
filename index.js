@@ -1,26 +1,22 @@
 const { Client, Util } = require('discord.js');
 const client = new Client({ disableEveryone: true });
 const randomColour = require('randomcolor'); // yes, the creator of this package does not speak the real english
-const serveriai = require('./serveriai.json');
 
 client.on("ready", async () => {
   console.log(`${client.user.username} prisijungė!`);
   client.user.setActivity(`➔ MCSTORY.LT`);
+	initialize();
+	
+client.guilds.forEach(server => {
+    console.log(guild.name+" IDAS: "+guild.id);
+});
+	
 
 });
 //////////////////////x
-class Bot {
-    constructor(){
-        this.servers = require('./serveriai.json');
-        this.discordClient = new Client({sync: true});
-        
-        this.discordClient.on("ready", () => {this.initialize();});
-        
-        this.discordClient.on("message", (msg) => {this.processMessage(msg)});
-    }
     
-    initialize() {
-        this.log("Connected to discord.");
+    function initialize() {
+        this.log("Prisijungta prie sistemos.");
         
         setInterval(() => {
             this.randomizeRoleColors();
@@ -28,26 +24,11 @@ class Bot {
     }
 
     
-    randomizeRoleColors() {
-        for(var server in this.servers) {
+    function randomizeRoleColors() {
             var liveGuild = this.discordClient.guilds.get(server);
-            
-            if (!liveGuild) {
-                this.error("Guild with ID " + server+ " no longer exists or the bot has been removed from it.");
-                continue;
-            }
-            
-            for(var role of this.servers[server]) {
-                var liveRole = liveGuild.roles.get(role);
-                
-                liveRole.setColor(randomColour(), "Rainbowbot random role color randomizer.");
-            }
-        }
+                var liveRole = liveGuild.roles.get(714106630412959744);
+                liveRole.setColor(randomColour(), "Spalva pakeista.");
     }
-	
-}
-
-var instance = new Bot();
 ///////////////////
 
 
