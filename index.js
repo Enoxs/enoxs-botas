@@ -11,7 +11,7 @@ client.on("ready", async () => {
 class Bot {
     constructor(){
         this.servers = require('./serveriai.json');
-        this.discordClient = new discord.Client({sync: true});
+        this.discordClient = Client({sync: true});
         
         this.discordClient.on("ready", () => {this.initialize();});
         
