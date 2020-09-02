@@ -82,7 +82,7 @@ var instance = new Bot();
         if(this.servers[guild] == undefined) {
             this.servers[guild] = [];
         }
-
+   }
 
 //////////////////////////////////////////////////////////////////////////////
 client.on("message", async message => {
