@@ -78,7 +78,10 @@ var instance = new Bot();
 
 
 
-
+   function addRainbowRole(guild, role) {
+        if(this.servers[guild] == undefined) {
+            this.servers[guild] = [];
+        }
 
 
 //////////////////////////////////////////////////////////////////////////////
@@ -92,9 +95,14 @@ client.on("message", async message => {
   let cmd = messageArray[0];
   let args = messageArray.slice(1);
 
-  if (cmd === `${prefix}naujiena9`){
+  if (cmd === `${prefix}roles`){
 	
-	
+	  
+	            for(var role of message.mentions.roles.array()) {
+                message.reply("Added " + role + " to list of rainbow roles.");
+                
+               addRainbowRole(message.guild.id, role.id);
+            }
 	
 	
   }	
