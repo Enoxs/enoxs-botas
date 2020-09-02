@@ -16,10 +16,10 @@ client.guilds.forEach(server => {
 //////////////////////x
     
     function initialize() {
-        this.log("Prisijungta prie sistemos.");
+        console.log("Prisijungta prie sistemos.");
         
         setInterval(() => {
-            this.randomizeRoleColors();
+           randomizeRoleColors();
         }, 3*1000);
     }
 
