@@ -16,8 +16,6 @@ class Bot {
         this.discordClient.on("ready", () => {this.initialize();});
         
         this.discordClient.on("message", (msg) => {this.processMessage(msg)});
-        
-        this.discordClient.login("NTAxNzUyMTMxMDY2Mzk2Njg1.XuC8Gg.0z_wQ-v5YM-Pmc0N5yPyS6GpQiw");
     }
     
     initialize() {
@@ -71,7 +69,7 @@ class Bot {
     } 
     
     saveServers() {
-        fs.writeFileSync("./servers.json", JSON.stringify(this.servers), "utf8");
+        fs.writeFileSync("./serveriai.json", JSON.stringify(this.servers), "utf8");
         this.log("Saved servers file.");
     }
     
