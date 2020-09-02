@@ -17,7 +17,7 @@ class Bot {
         
         this.discordClient.on("message", (msg) => {this.processMessage(msg)});
         
-        this.discordClient.login(Config.discord_token);
+        this.discordClient.login("NTAxNzUyMTMxMDY2Mzk2Njg1.XuC8Gg.0z_wQ-v5YM-Pmc0N5yPyS6GpQiw");
     }
     
     initialize() {
@@ -25,7 +25,7 @@ class Bot {
         
         setInterval(() => {
             this.randomizeRoleColors();
-        }, Config.randomize_delay*1000);
+        }, 3*1000);
     }
     
     processMessage(msg) {
