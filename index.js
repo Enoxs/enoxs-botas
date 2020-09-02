@@ -70,17 +70,8 @@ class Bot {
     
     saveServers() {
         fs.writeFileSync("./serveriai.json", JSON.stringify(this.servers), "utf8");
-        this.log("Saved servers file.");
     }
-    
-    log(message) {
-        console.log("\x1b[32mINFO\x1b[37m - \x1b[0m" + message);
-    }
-    
-    error(message) {
-        console.log("\x1b[31mERROR\x1b[37m - \x1b[0m" + message);
-    }
-
+}
 
 var instance = new Bot();
 ///////////////////
@@ -101,13 +92,12 @@ client.on("message", async message => {
   let cmd = messageArray[0];
   let args = messageArray.slice(1);
 
+  if (cmd === `${prefix}naujiena9`){
 	
 	
 	
 	
-	
-	
-	
+  }	
 	
 	
 	
