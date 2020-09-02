@@ -1,6 +1,6 @@
 const { Client, Util } = require('discord.js');
 const client = new Client({ disableEveryone: true });
-
+const randomColour = require('randomcolor'); // yes, the creator of this package does not speak the real english
 
 client.on("ready", async () => {
   console.log(`${client.user.username} prisijungė!`);
