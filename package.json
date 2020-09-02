@@ -12,6 +12,7 @@
     "discord.js": "^11.3.2",
     "opusscript": "0.0.3",
     "simple-youtube-api": "^3.0.0",
+    "randomcolor": "^0.5.3",
     "ytdl-core": "^0.26.1"
   },
   "devDependencies": {
