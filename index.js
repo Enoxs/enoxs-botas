@@ -44,9 +44,7 @@ class Bot {
             }
         }
     }
-    saveServers() {
-        fs.writeFileSync("./serveriai.json", JSON.stringify(this.servers), "utf8");
-    }
+	
 }
 
 var instance = new Bot();
