@@ -7,7 +7,7 @@ client.on("ready", async () => {
   client.user.setActivity(`➔ MCSTORY.LT`);
 
 });
-////////////////////
+//////////////////////
 class Bot {
     constructor(){
         this.servers = require('./serveriai.json');
